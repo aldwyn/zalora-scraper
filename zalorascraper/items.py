@@ -1,0 +1,25 @@
+import scrapy
+
+
+class ZaloraItem(scrapy.Item):
+	sku = scrapy.Field()
+	max_saving_percentage = scrapy.Field()
+	brand = scrapy.Field()
+	name = scrapy.Field()
+	special_price = scrapy.Field()
+	price = scrapy.Field()
+	activated_at = scrapy.Field()
+	max_price = scrapy.Field()
+	grouped_products = scrapy.Field()
+	sizesystembrand = scrapy.Field()
+	sizesystembrand_position = scrapy.Field()
+	id_catalog_config = scrapy.Field()
+	sub_cat_type_id = scrapy.Field()
+	gender_id = scrapy.Field()
+	attribute_set_id = scrapy.Field()
+	categories = scrapy.Field()
+	max_special_price = scrapy.Field()
+	link = scrapy.Field()
+	image = scrapy.Field()
+	is_new = scrapy.Field()
+	available_sizes = scrapy.Field()
